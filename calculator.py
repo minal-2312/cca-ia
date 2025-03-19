@@ -264,6 +264,7 @@ def p_expression_name(t):
 
 def p_error(t):
     print('Syntax error at \'%s\'' % t.value)
+    print('Hello BNMIT')
 
 # lexer = lex.lex()
 lexer = lex.lex(optimize=1)
